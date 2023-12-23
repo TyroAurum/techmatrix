@@ -1,0 +1,183 @@
+{
+    "events":{
+        "techvision":{
+            "name" : "Techvision",
+            "aka": "aka Paper Presentation",
+            "participant" : "2-4",
+            "duration":"5 Mins",
+            "rules":[
+                "All Manuscripts must be original works of the authors",
+                "Plagiarized content beyond 15% will not be eligible for publication.",
+                "Not more than 10 - 12 slides in PPT .",
+                "The paper that you are going to present should be uploaded on the provide drive link"
+            ],
+            "rounds":"1",
+            "venue":"Vivekandha Hall",
+            "incharge": [
+                { "name":"Arjun",
+                    "phone":"8754571249"},
+                { "name":"Lavanya",
+                    "phone":"9003045850"}
+            ]
+        },
+        "errorepic":{
+            "name":"Error Epic",
+            "aka":"aka Debugging",
+            "participant":"2",
+            "duration":"1.5 Hrs",
+            "rules":[
+                "No Specific Language needed"
+            ],
+            "rounds":"2",
+            "venue":"Bill Gates Block",
+            "incharge":[
+                { "name":"Ganeshan",
+                    "phone":"9445375213"},
+                { "name":"Dhaniksha Sree",
+                    "phone":"9360655180"}
+            ]
+        },
+        "webtopia":{
+            "name":"Webtopia",
+            "aka":"aka Web Designing",
+            "participant":"2",
+            "duration":"2 Hrs",
+            "rules":[
+                "No frameworks (Bootstrap,Taliswind Css like frameworks) should be used.",
+                "Design a website using HTML, CSS and JavaScript",
+                "Website should be responsive"
+            ],
+            "rounds":"3",
+            "venue":"CASE Tools Lab, Bill Gates Block",
+            "incharge":[
+                { "name":"Balaji MK",
+                    "phone":"6379146202"},
+                { "name":"Krishna Shythanya M",
+                    "phone":"8778906096"}
+            ]
+        },
+        "technova":{
+            "name":"Technova",
+            "aka":"aka Project Expo",
+            "participant":"3",
+            "duration":"5 Mins",
+            "rules":[
+                "Students must present their project with a demo.",
+                "At the time of presentation,students are requested to submit a hard copy of the abstract.",
+                "The model should be in a good working condition.",
+                "Students must bring their necessary accessories. General purpose equipment such as power supply will be provided."
+            ],
+            "rounds":"1",
+            "venue":"Ground Floor, Abdul Kalam Block",
+            "incharge":[
+                { "name":"Madumitha A",
+                    "phone":"6383099951"},
+                { "name":"Mohammed Alith S",
+                    "phone":"9025352112"}
+            ]
+        },
+        "mindmaze":{
+            "name":"Mindmaze",
+            "aka":"aka Quiz",
+            "participant":"2",
+            "duration":"1.5 Hrs",
+            "rules":[
+                "10 Questions will be given. The teams with top scores will qualify to the 2nd round."
+
+            ],
+            "rounds":"3",
+            "venue":"Unknown",
+            "incharge":[
+                { "name":"Abinaya A",
+                    "phone":"9342445898"},
+                { "name":"Bharani R",
+                    "phone":"9025104753"}
+            ]
+        },
+        "brainiacs":{
+            "name":"Brainiacs",
+            "aka":"aka Memory Game",
+            "participant":"2",
+            "duration":"2 Hrs",
+            "rules":[],
+            "rounds":"2",
+            "venue":"Ground Floor, Abdul Kalam Block",
+            "incharge":[
+                { "name":"Ganesh Karthik",
+                    "phone":"7904696184"},
+                { "name":"Dhivya",
+                    "phone":"6869294955"}
+            ]
+        },
+        "enigma":{
+            "name":"Enigma",
+            "aka":"aka Connections",
+            "participant":"2-4",
+            "duration":"2 Hrs",
+            "rules":[],
+            "rounds":"3",
+            "venue":"Unknown",
+            "incharge":[
+                { "name":"Meghashyam",
+                    "phone":"7904559131"},
+                { "name":"Prince Bosica",
+                    "phone":"6374704520"}
+            ]
+        },
+        "pixelparty":{
+            "name":"PixelParty",
+            "aka":"aka Photography",
+            "participant":"1",
+            "duration":"unknown",
+            "rules":[],
+            "rounds":"3",
+            "venue":"unknown",
+            "incharge":[
+                { "name":"Mohan",
+                    "phone":"7904760582"},
+                { "name":"Pooja",
+                    "phone":"8072461027"}
+            ]
+        },
+        "gamify":{
+            "name":"Gamify",
+            "aka":"aka Gaming",
+            "participant":"2",
+            "duration":"1.5 Hrs",
+            "rules":[
+                "No PC/ Emulator & iPad.",
+                "Only mobile phones are allowed.",
+                "No team-ups in between the matches.",
+                "No hacks.",
+                "Headphones are mandatory",
+                "No shouting and usage of foul languages."
+            ],
+            "rounds":"2",
+            "venue":"Seminar Hall, Abdul Kalam Block",
+            "incharge":[
+                { "name":"Kiranraj R",
+                    "phone":"7904696184"},
+                { "name":"Sivasangari",
+                    "phone":"9940078097"}
+            ]
+        },
+        "treasurehunt":{
+            "name":"Treasure Hunt",
+            "aka": null,
+            "participant":"3",
+            "duration":"unknown",
+            "rules":[
+                "First a puzzle will be given among the teams to solve and a hint will be exposed after solving the puzzle.",
+                "And there are many hints after that. By following those hints one must find the treasure."
+            ],
+            "venue":"Unknown",
+            "incharge":[
+                { "name":"Kuralnidhi",
+                    "phone":"8838168221"},
+                { "name":"Udayaravina",
+                    "phone":"9962566240"}
+            ]
+        
+        }
+    }
+}

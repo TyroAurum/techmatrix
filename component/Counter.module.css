@@ -1,0 +1,70 @@
+@media only screen and (min-width: 768px) {
+    .counterMain{
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+    }
+
+    .counterMain>h3{
+        margin: 20px 3px 0px 3px;
+    }
+
+    .counterSec{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .counterBox{
+        height: 80px;
+        width: 80px;
+        border-radius: 12px;
+        background-color: black;
+    }
+
+    .danger{
+        color: red;
+    }
+
+    .noDanger{
+        color:aliceblue
+    }
+
+    .danger, .noDanger {
+        padding-top: 25%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .counterMain{
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+    }
+
+    .counterMain>h3{
+        margin: 15px 3px 0px 3px;
+    }
+
+    .counterSec{
+        text-align: center;
+    }
+
+    .counterBox{
+        height:60px;
+        width: 60px;
+        border-radius: 9px;
+        background-color: black;
+    }
+
+    .danger{
+        color: red;
+    }
+
+    .noDanger{
+        color:aliceblue
+    }
+
+    .danger, .noDanger {
+        padding-top: 30%;
+    }
+}

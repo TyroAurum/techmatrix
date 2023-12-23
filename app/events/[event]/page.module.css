@@ -1,0 +1,116 @@
+
+@media only screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .pageDiv{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(31, 46, 60); */
+    height: 99.2vh;
+    width: 98.5vw;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 4px;
+  }
+
+  .eventSection>h3, .eventSection>p{
+    text-align: center;
+  }
+
+  .eventSection>h3{
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+
+  .eventInfo{
+    font-size: 23px;
+    text-align-last: center;
+    margin-top: 100px;
+  }
+
+  .eventDetail{
+    margin: 25px 0px;
+  }
+
+
+  .btnDiv{
+    display: flex;
+    justify-content: center;
+  }
+
+  .registerBtn{
+    padding: 20px 30px;
+    width: 250px;
+    background-color: red;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pageDiv{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(31, 46, 60); */
+    width: 100vw;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 4px;
+  }
+
+  .eventSection{
+    text-align: -webkit-center;
+  }
+
+  .eventSection>h3, .eventSection>p{
+    text-align: center;
+  }
+
+  .eventSection>h3{
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
+  .eventInfo{
+    font-size: 17px;
+    text-align-last: center;
+    margin-top: 100px;
+    width: 90vw;
+  }
+
+  .eventDetail{
+    margin: 25px 0px;
+  }
+
+
+  .btnDiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .rule{
+    padding: 5px 0px;
+  }
+
+  .registerBtn{
+    padding: 15px 30px;
+    width: 150px;
+    background-color: red;
+    border-radius: 15px;
+  }
+}
