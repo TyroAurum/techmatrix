@@ -23,13 +23,13 @@ const TitleBar = ()=> {
         <>
         <header className={styles.titleBar}>
             <div className={clsx({[`${styles.titleBarS}`] : !scroll , [`${styles.titleBarFixed}`]: scroll})}>
-              <a href='/'><Image src='/logo.png' alt='Logo' height={45} width={350} /></a>
+              <a href='/'><Image className={styles.logoImg} src='/logo.png' alt='Logo' height={50} width={270} /></a>
               <button onClick={handleDrop} className={styles.MenuIcon} ><img src='/menu.svg' alt='Menu' /></button>
               <ul className={clsx({[`${styles.menuTab}`] : !drop , [`${styles.menuTabDrop}`]: drop})}>
                 <li className={styles.tabElement}><a href='/'>Home</a></li>
                 <li className={styles.tabElement}><a href='/events'>Events</a></li>
-                <li className={styles.tabElement}><a>About</a></li>
-                <li className={styles.tabElement}><a>Help</a></li>
+                <li className={styles.tabElement}><a href='https://docs.google.com/forms/d/e/1FAIpQLScCXuLPQGV4RrvXp4U-u-mkNmY6lGAC8V1ZXq5rCuPQUQ65HQ/viewform'>Register</a></li>
+                <li className={styles.tabElement}><a href='/help'>Help</a></li>
               </ul>
             </div>
           </header>

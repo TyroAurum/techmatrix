@@ -1,0 +1,54 @@
+import TitleBar from "@/component/Titlebar";
+import styles from './page.module.css';
+
+
+export default function Home(){
+    return(
+        <>
+        <div className={styles.main}>
+            <div className={styles.pageDiv}>
+                <TitleBar />
+                <div className={styles.firstSection}>
+                    <h3 className={styles.forQuery}>For Queries</h3>
+                    <div className={styles.SectionI}>
+                            <h3>Faculty Coordinator</h3>
+                        <div className={styles.singleSection}>
+                            <div>
+                                <h4>Mr. K R MohanRaj</h4>
+                                <h5>Assistant Professor, IT</h5>
+                                <h6>9600256117</h6>
+                            </div>
+                            <div>
+                                <h4>Mrs. A R Sathyabama</h4>
+                                <h5>Assistant Professor, IT</h5>
+                                <h6>9884969715</h6>
+                            </div>
+                        </div>
+                            <h3>Student Coordinator</h3>
+                        <div className={styles.singleSection}>
+                            <div>
+                                <h4>G Atharsh</h4>
+                                <h5>President</h5>
+                                <h6>9884597805</h6>
+                            </div>
+                            <div>
+                                <h4>Naafiah Fathima</h4>
+                                <h5>Vice President</h5>
+                                <h6>9677061852</h6>
+                            </div>
+                        </div>
+                        <div>
+                            <center>
+                                <a href="mailto:techmatrix2024@gmail.com">
+                                <img className={styles.mailIcon} src='/mail.svg' alt="Insta" />
+                                <p>techmatrix2024@gmail.com</p>
+                                </a>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </>
+    )
+}

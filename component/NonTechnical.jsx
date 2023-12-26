@@ -22,7 +22,7 @@ const NonTechnical = () => {
             </div></a>
             <a href='/events/treasurehunt'><div className={styles.techButton}>
                 <h3>Treasure Hunt</h3>
-                <p>  .</p>
+                <p>  </p>
             </div></a>
         </div></>
     )
