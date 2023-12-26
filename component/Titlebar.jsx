@@ -2,6 +2,7 @@
 import styles from './Titlebar.module.css';
 import { useEffect, useState } from 'react';
 import clsx from 'clsx';
+import Image from 'next/image';
 
 const TitleBar = ()=> {
   const [scroll, setScroll] = useState(false);
@@ -22,7 +23,7 @@ const TitleBar = ()=> {
         <>
         <header className={styles.titleBar}>
             <div className={clsx({[`${styles.titleBarS}`] : !scroll , [`${styles.titleBarFixed}`]: scroll})}>
-              <p>LOGO</p>
+              <a href='/'><Image src='/logo.png' alt='Logo' height={45} width={350} /></a>
               <button onClick={handleDrop} className={styles.MenuIcon} ><img src='/menu.svg' alt='Menu' /></button>
               <ul className={clsx({[`${styles.menuTab}`] : !drop , [`${styles.menuTabDrop}`]: drop})}>
                 <li className={styles.tabElement}><a href='/'>Home</a></li>

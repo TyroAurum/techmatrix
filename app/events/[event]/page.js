@@ -78,7 +78,7 @@ particlesLoaded={particlesLoaded}
                                     </div>
                             </div>
                             <div className={styles.btnDiv}>
-                                <a href='#'>
+                                <a href='https://docs.google.com/forms/d/e/1FAIpQLScCXuLPQGV4RrvXp4U-u-mkNmY6lGAC8V1ZXq5rCuPQUQ65HQ/viewform'>
                                     <div className={styles.registerBtn}>
                                         <p>Register</p>
                                     </div>
