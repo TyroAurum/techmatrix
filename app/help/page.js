@@ -37,7 +37,7 @@ export default function Home(){
                                 <h6>9677061852</h6>
                             </div>
                         </div>
-                        <div>
+                        <div className={styles.mail}>
                             <center>
                                 <a href="mailto:techmatrix2024@gmail.com">
                                 <img className={styles.mailIcon} src='/mail.svg' alt="Insta" />
