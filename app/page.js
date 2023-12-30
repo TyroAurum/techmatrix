@@ -33,7 +33,7 @@ export default function Home() {
                 <h5>National Level Symposium</h5>
                 <h2>Tech Matrix - 2k24</h2>
                 <p>Department of Information Technology</p>
-                {isClient&& <Counter dateValue="1708108200000" />}
+                {isClient&& <Counter dateValue="1707503400000" />}
             </div>
           </div>
         </div>
@@ -49,7 +49,8 @@ export default function Home() {
                 </div>
               </a>
                 <div className={styles.infoTab}>
-                  <h3>Timing</h3>
+                  <h3>Date/Timing</h3>
+                  <p>10 Feb 2024</p>
                   <p>Reporting : 8:40 am</p>
                   <p>Inauguration : 9:00 am</p>
                 </div>
@@ -89,7 +90,7 @@ export default function Home() {
             <div className={styles.contactTop}>
               <div className={styles.contactInfo}> 
                 <h3>Tech Matrix - 2k24</h3>
-                <p>Explore and Enjoy the various events</p>
+                <p>Explore and Enjoy the various events with learning and networking.</p>
                 <div className={styles.socialIcons}>
                   <a href='https://www.instagram.com/techmatrix_vec/'>
                     <div className={styles.iconDiv}>
