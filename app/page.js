@@ -70,7 +70,14 @@ export default function Home() {
           <div className={styles.sponsorSection}>
             <h3>Our Sponsors</h3>
             <div className={styles.sponsors}>
-
+              <div>
+                <Image src="/guvi-bg.png" alt='GUVI' width={280} height={140} />
+                <Image src="/Poorvika.png" alt='Poorvika' width={300} height={100} />
+                <Image src="/chennai.png" alt='Chennai Mobiles' width={320} height={110} />
+              </div>
+                <div>
+                  <Image src="/iedc.jpg" alt='IEDC' width={320} height={110} />
+                </div>
             </div>
           </div>
         </div>

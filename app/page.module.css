@@ -94,6 +94,22 @@
       margin-top: 10vh;
     }
 
+    .sponsors{
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap-reverse;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+    }
+
+    .sponsors>div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 50px;
+    }
+  
 
     .fifthSection{
       background-color: rgb(34,40,49);
@@ -256,6 +272,8 @@
     font-size: 25px;
     margin-top: 30px;
   }
+
+
 
 
 
