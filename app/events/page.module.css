@@ -22,6 +22,7 @@
 .eventSection{
   height: 100vh;
   margin: 0px 20vw;
+  color: white;
 }
 
 .eventSection>h3{
@@ -92,6 +93,7 @@
   .eventSection{
     height: 100vh;
     margin: 0px 20vw;
+    color: white;
   }
 
   .eventSection>h3{

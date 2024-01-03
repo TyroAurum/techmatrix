@@ -17,6 +17,7 @@
     align-items: center;
     overflow: hidden;
     margin-top: 4px;
+    color: white;
   }
 
   .eventSection>h3, .eventSection>p{
@@ -74,6 +75,7 @@
 
   .eventSection{
     text-align: -webkit-center;
+    color: white;
   }
 
   .eventSection>h3, .eventSection>p{

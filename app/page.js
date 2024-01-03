@@ -67,7 +67,7 @@ export default function Home() {
                 </div>
                 <div className={styles.infoTab}>
                   <h3>Prizes</h3>
-                  <p>Upto INR 50,000</p>
+                  <p>Upto INR 100,000</p>
                   <p>Cash award</p>
                 </div>
             </div>
