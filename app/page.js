@@ -1,9 +1,11 @@
 "use client";
-import styles from './page.module.css'
+import styles from './page.module.css';
+import style from './page1.module.css';
 import Image from 'next/image'
 import Counter from '@/component/Counter'
 import { useEffect, useState } from 'react'
 import TitleBar from '@/component/Titlebar';
+import * as Vfx from 'react-vfx';
 
 export default function Home() {
   const [isClient,setIsClient] = useState(false);
@@ -14,8 +16,11 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <Vfx.VFXProvider>
       <div className={styles.pageDiv}>
         <div className={styles.firstSection}>
+        </div>
+        {/* <Vfx.VFXImg src="/bg2.jpg" alt="image" shader="rgbShift"/> */}
           <TitleBar />
           {/* <header className={styles.titleBar}>
             <div>
@@ -29,14 +34,15 @@ export default function Home() {
             </div>
           </header> */}
           <div className={styles.homeBanner}>
-            <div suppressHydrationWarning="true" className={styles.txtInfo}>
+            {/* <Vfx.VFXP shader='rgbShift'> */}
+            <div suppressHydrationWarning="true" className={`${styles.txtInfo} ${style.glitch}`}>
                 <h5>National Level Symposium</h5>
-                <h2>Tech Matrix - 2k24</h2>
-                <p>Department of Information Technology</p>
+                <h2 className={style.glitchP}>Tech Matrix - 2k24</h2>
+                <p className={style.glitchP}>Department of Information Technology</p>
                 {isClient&& <Counter dateValue="1707503400000" />}
             </div>
+            {/* </Vfx.VFXP> */}
           </div>
-        </div>
         <div className={styles.secondSection}>
           <div className={styles.infoSection}>
             <h3>Informatica</h3>
@@ -78,6 +84,7 @@ export default function Home() {
               </div>
                 <div>
                   <Image src="/iedc.jpg" alt='IEDC' width={320} height={110} />
+                <Image src="/lemonivy.jpeg" alt='Lemonivy' width={400} height={100} />
                 </div>
             </div>
           </div>
@@ -90,7 +97,7 @@ export default function Home() {
             <div className={styles.contactTop}>
               <div className={styles.contactInfo}> 
                 <h3>Tech Matrix - 2k24</h3>
-                <p>Explore and Enjoy the various events with learning and networking.</p>
+                <p>Are You Ready ?.. The Matrix is Real</p>
                 <div className={styles.socialIcons}>
                   <a href='https://www.instagram.com/techmatrix_vec/'>
                     <div className={styles.iconDiv}>
@@ -123,11 +130,12 @@ export default function Home() {
               </div>
             </div>
             <div className={styles.contactBottom}>
-                <p>Copyright ©2024 All rights reserved  | Tech Matrix 2k24</p>
+                <p>Copyright © 2024 All rights reserved  | Tech Matrix 2k24</p>
             </div>
           </div>
         </div>
       </div>
+      </Vfx.VFXProvider>
     </main>
   )
 }

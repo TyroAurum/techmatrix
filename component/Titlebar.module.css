@@ -4,26 +4,28 @@
       color: black;
       text-align: -webkit-center;
       padding: 50px 0px;
+      z-index: 5;
     
     }
 
   .titleBarFixed{
     position: fixed;
     top: 0%;
-    width: 98.5vw; 
+    width: 100vw; 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgba(255, 255, 255, 0.70);
+    background-color: rgba(255, 255, 255, 0.8);
     align-items: center;
     height: 80px;
+    z-index: 5;
   }
   
   .titleBarS{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgba(255, 255, 255,0.7);
+    background-color: rgba(255, 255, 255,0.8);
     align-items: center;
     height: 80px;
     width: 60vw;
@@ -42,7 +44,7 @@
   
   .tabElement{
     margin: 0px 20px;
-    padding: 5px 15px;
+    padding: 7px 15px;
     border-radius: 15px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -64,6 +66,7 @@
       width: 100vw;
       color: black;
       text-align: -webkit-center;
+      z-index: 5;
     
     }
 
@@ -77,6 +80,7 @@
     background-color: rgba(255, 255, 255, 0.80);
     align-items: center;
     height: 65px;
+    z-index: 5;
   }
   
   .titleBarS{

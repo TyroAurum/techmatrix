@@ -1,12 +1,32 @@
+"use client";
 import TitleBar from "@/component/Titlebar";
 import styles from './page.module.css';
-
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from '@tsparticles/slim';
+import { useEffect, useState } from "react"
 
 export default function Home(){
+    const [init, setInit] = useState(false);
+    useEffect(() => {
+        initParticlesEngine(async (engine) => {
+          await loadSlim(engine);
+        }).then(() => {
+          setInit(true);
+        });
+      }, []);
+
+    const particlesLoaded = (container) => {
+    console.log(container);
+    };
     return(
         <>
         <div className={styles.main}>
             <div className={styles.pageDiv}>
+            { init && <Particles
+        id="tsparticles"
+        url="/event.json"
+        particlesLoaded={particlesLoaded}
+      /> }
                 <TitleBar />
                 <div className={styles.firstSection}>
                     <h3 className={styles.forQuery}>For Queries</h3>

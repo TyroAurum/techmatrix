@@ -52,7 +52,7 @@ export default function Home(props){
         <>
         { init && <Particles
 id="tsparticles"
-url="/particles.json"
+url="/event.json"
 particlesLoaded={particlesLoaded}
 /> }
         <main className={styles.main}>
