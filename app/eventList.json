@@ -82,11 +82,13 @@
             "participant":"2",
             "duration":"1.5 Hrs",
             "rules":[
-                "10 Questions will be given. The teams with top scores will qualify to the 2nd round."
+                "Round 1: 10 Questions will be given. The teams with top scores will qualify to the 2nd round.",
+                "Round 2: Technical Questions will be asked in common the team who knows the answer have to complete the given activity,the 1st team that completes the activity gets the chance to answer the question if they give wrong answer then the question gets passed on to the next team who completes the activity.Finally the team with top scores will go to Final round.",
+                "Round 3: Ludo"
 
             ],
             "rounds":"3",
-            "venue":"Unknown",
+            "venue":"Mechanical seminar hall",
             "incharge":[
                 { "name":"Abinaya A",
                     "phone":"9342445898"},
@@ -99,7 +101,10 @@
             "aka":"aka Memory Game",
             "participant":"2",
             "duration":"2 Hrs",
-            "rules":[],
+            "rules":[
+                "Round 1: Teams must observe randomly displayed images and jot down the list of what they've seen. The team with the highest number of accurately listed images will advance to Round 2.",
+                "Round 2: Two teams will simultaneously participate, where they receive a word and must pass it on to the next team in succession. The team that successfully recalls all the words will emerge as the game's winner."
+            ],
             "rounds":"2",
             "venue":"Ground Floor, Abdul Kalam Block",
             "incharge":[
@@ -114,9 +119,13 @@
             "aka":"aka Connections",
             "participant":"2-4",
             "duration":"2 Hrs",
-            "rules":[],
+            "rules":[
+                    "Round 1: A BGM will be played and the teams should find the movie and song.", 
+                    "Round 2: Random images are displayed and the teams should find the song name. 30 seconds will be given for each question and the team which finds the most will be moved to the final round.",
+                    "Round 3: Some words/sentences are given to the teammate and they should use"
+            ],
             "rounds":"3",
-            "venue":"Unknown",
+            "venue":"First Floor, Abdul Kalam Block",
             "incharge":[
                 { "name":"Meghashyam",
                     "phone":"7904559131"},
@@ -128,10 +137,14 @@
             "name":"PixelParty",
             "aka":"aka Photography",
             "participant":"1",
-            "duration":"unknown",
-            "rules":[],
+            "duration":"NA",
+            "rules":[
+                "Round 1: The images which are already existing in your device must be mailed to the leads. Selection for round2 will be based on that.",    
+                "Round 2: Photos must be taken only inside the campus(Theme:Aesthetic photos).", 
+                "Round 3: Some objects will be provided and photos must be taken of the provided objects. Top 3 wins the prize."
+            ],
             "rounds":"3",
-            "venue":"unknown",
+            "venue":"Abdul Kalam Block",
             "incharge":[
                 { "name":"Mohan",
                     "phone":"7904760582"},
@@ -165,12 +178,12 @@
             "name":"Treasure Hunt",
             "aka": null,
             "participant":"3",
-            "duration":"unknown",
+            "duration":"NA",
             "rules":[
                 "First a puzzle will be given among the teams to solve and a hint will be exposed after solving the puzzle.",
                 "And there are many hints after that. By following those hints one must find the treasure."
             ],
-            "venue":"Unknown",
+            "venue":"Abdul Kalam Block",
             "incharge":[
                 { "name":"Kuralnidhi",
                     "phone":"8838168221"},
