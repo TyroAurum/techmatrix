@@ -22,7 +22,6 @@
       /* background-color: black; */
       align-items: center;
       margin-top: 7px;
-      height: 81vh;
       width: 98.5vw;
     }
 
@@ -38,6 +37,7 @@
       background-color: rgba(158, 158, 158, 0.5);
       border-radius: 15px;
       padding: 40px 0px;
+      margin-bottom: 30px;
     }
 
     .singleSection{

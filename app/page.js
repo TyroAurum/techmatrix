@@ -36,14 +36,19 @@ export default function Home() {
           <div className={styles.homeBanner}>
             {/* <Vfx.VFXP shader='rgbShift'> */}
             <div suppressHydrationWarning="true" className={`${styles.txtInfo} ${style.glitch}`}>
-                <h5>National Level Symposium</h5>
-                <h2 className={style.glitchP}>Tech Matrix - 2k24</h2>
+                <span className={styles.collegeName}>
+                <Image src="/vec_logo.png" alt='VEC' width={100} height={100} />
+                <h3>Velammal Engineering College</h3>
+                </span>
                 <p className={style.glitchP}>Department of Information Technology</p>
+                <h5>Proudly presents the National Level Symposium</h5>
+                <h6>Presents</h6>
+                <h2 className={style.glitchP}>Tech Matrix - 2k24</h2>
                 {isClient&& <Counter dateValue="1707503400000" />}
             </div>
             {/* </Vfx.VFXP> */}
           </div>
-        <div className={styles.secondSection}>
+        <div className={`${styles.secondSection} ${style.glitch}`}>
           <div className={styles.infoSection}>
             <h3>Informatica</h3>
             <div className={styles.infoTabBar}>
@@ -98,7 +103,7 @@ export default function Home() {
               <div className={styles.contactInfo}> 
                 <h3>Tech Matrix - 2k24</h3>
                 <p>Are You Ready ?.. The Matrix is Real</p>
-                <div className={styles.socialIcons}>
+                {/* <div className={styles.socialIcons}>
                   <a href='https://www.instagram.com/techmatrix_vec/'>
                     <div className={styles.iconDiv}>
                       <img className={styles.icons} src='/instagram.svg' alt="Insta" />
@@ -108,25 +113,32 @@ export default function Home() {
                     <div className={styles.iconDiv}>
                       <img className={styles.mailIcon} src='/mail.svg' alt="Insta" />
                     </div>
-                  </a>
+                  </a> */}
                   {/* <a href='#'>
                     <div className={styles.iconDiv}>
                       <img className={styles.mailIcon} src='/whatsapp.svg' alt="Insta" />
                     </div>
                   </a> */}
                   
-                </div>
+                {/* </div> */}
               </div>
               <div className={styles.contactBtn}>
                 <div className={styles.rightSec}>
                   <img className={styles.mailIcon} src='/location.svg' alt="location" />
                   <p>Ambattur Red-hills Road, Surapet, Chennai – 600 066.</p>
                 </div><br />
-                <div className={styles.rightSec}>
+                <a href='mailto:techmatrix2024@gmail.com'>
+                  <div className={styles.rightSec}>
                   <img className={styles.mailIcon} src='/mail.svg' alt="location" />
                   <p>techmatrix2024@gmail.com</p>
-                </div>
+                </div></a>
                   <br/>
+                  <a href='https://www.instagram.com/techmatrix_vec/'>
+                    <div className={styles.rightSec}>
+                      <img className={styles.mailIcon} src='/instagram.svg' alt="Insta" />
+                      <p>@techmatrix_vec</p>
+                    </div>
+                  </a>
               </div>
             </div>
             <div className={styles.contactBottom}>
