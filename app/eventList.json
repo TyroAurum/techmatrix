@@ -139,15 +139,16 @@
             "participant":"1",
             "duration":"NA",
             "rules":[
-                "Round 1: The images which are already existing in your device must be mailed to the leads. Selection for round2 will be based on that.",    
-                "Round 2: Photos must be taken only inside the campus(Theme:Aesthetic photos).", 
-                "Round 3: Some objects will be provided and photos must be taken of the provided objects. Top 3 wins the prize."
+                "Individual participation, no teams.",
+                "Only a mobile phone is allowed.",
+                "Plagiarism is strictly prohibited.",
+                "Get ready for an exhilarating first round packed with fun and adventure! Immerse yourself in the excitement by capturing dynamic moments as you explore the campus."
             ],
             "rounds":"3",
             "venue":"Abdul Kalam Block",
             "incharge":[
-                { "name":"Mohan",
-                    "phone":"7904760582"},
+                { "name":"Santhosh",
+                    "phone":"9003206437"},
                 { "name":"Pooja",
                     "phone":"8072461027"}
             ]
