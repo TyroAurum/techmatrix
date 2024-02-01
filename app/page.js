@@ -43,6 +43,7 @@ export default function Home() {
                 <p className={style.glitchP}>Department of Information Technology</p>
                 <h5>Proudly presents the National Level Symposium</h5>
                 <h6>Presents</h6>
+                <h6>The National Level Technical Symposium</h6>
                 <h2 className={style.glitchP}>Tech Matrix - 2k24</h2>
                 {isClient&& <Counter dateValue="1707503400000" />}
             </div>
@@ -89,7 +90,7 @@ export default function Home() {
               </div>
                 <div>
                   <Image src="/iedc.jpg" alt='IEDC' width={320} height={110} />
-                <Image src="/lemonivy.jpeg" alt='Lemonivy' width={400} height={100} />
+                <Image src="/lemonivy.png" alt='Lemonivy' width={400} height={100} />
                 </div>
             </div>
           </div>
@@ -125,7 +126,7 @@ export default function Home() {
               <div className={styles.contactBtn}>
                 <div className={styles.rightSec}>
                   <img className={styles.mailIcon} src='/location.svg' alt="location" />
-                  <p>Ambattur Red-hills Road, Surapet, Chennai – 600 066.</p>
+                  <p>Ambattur Red-hills Road, Surapet,<br></br> Chennai – 600 066.</p>
                 </div><br />
                 <a href='mailto:techmatrix2024@gmail.com'>
                   <div className={styles.rightSec}>

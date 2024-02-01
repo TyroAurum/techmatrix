@@ -47,14 +47,14 @@ export default function Home(){
                             <h3>Student Coordinator</h3>
                         <div className={styles.singleSection}>
                             <div>
-                                <h4>G Atharsh</h4>
+                                <h4>Naafiah Fathima</h4>
                                 <h5>President</h5>
-                                <h6>9884597805</h6>
+                                <h6>9677061852</h6>
                             </div>
                             <div>
-                                <h4>Naafiah Fathima</h4>
+                                <h4>Yashwanth</h4>
                                 <h5>Vice President</h5>
-                                <h6>9677061852</h6>
+                                <h6>9347605179</h6>
                             </div>
                         </div>
                         <div className={styles.mail}>

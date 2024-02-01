@@ -11,7 +11,7 @@ const TitleBar = ()=> {
 
   useEffect(()=>{
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 220);
+      setScroll(window.scrollY > 240);
     });
   },[])
 
