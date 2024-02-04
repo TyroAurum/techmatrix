@@ -3,7 +3,7 @@
         "techvision":{
             "name" : "Techvision",
             "aka": "aka Paper Presentation",
-            "participant" : "2-4",
+            "participant" : "Max 4",
             "duration":"5 Mins",
             "rules":[
                 "All Manuscripts must be original works of the authors",
@@ -23,7 +23,7 @@
         "errorepic":{
             "name":"Error Epic",
             "aka":"aka Debugging",
-            "participant":"2",
+            "participant":"Max - 2   Min - 2",
             "duration":"1.5 Hrs",
             "rules":[
                 "No Specific Language needed"
@@ -40,7 +40,7 @@
         "webtopia":{
             "name":"Webtopia",
             "aka":"aka Web Designing",
-            "participant":"2",
+            "participant":"Max 2",
             "duration":"2 Hrs",
             "rules":[
                 "No frameworks (Bootstrap,Taliswind Css like frameworks) should be used.",
@@ -59,7 +59,7 @@
         "technova":{
             "name":"Technova",
             "aka":"aka Project Expo",
-            "participant":"3",
+            "participant":"Max 3",
             "duration":"5 Mins",
             "rules":[
                 "Students must present their project with a demo.",
@@ -79,7 +79,7 @@
         "mindmaze":{
             "name":"Mindmaze",
             "aka":"aka Quiz",
-            "participant":"2",
+            "participant":"Max 2",
             "duration":"1.5 Hrs",
             "rules":[
                 "Round 1: 10 Questions will be given. The teams with top scores will qualify to the 2nd round.",
@@ -99,7 +99,7 @@
         "brainiacs":{
             "name":"Brainiacs",
             "aka":"aka Memory Game",
-            "participant":"2",
+            "participant":"2-3" ,
             "duration":"2 Hrs",
             "rules":[
                 "Round 1: Teams must observe randomly displayed images and jot down the list of what they've seen. The team with the highest number of accurately listed images will advance to Round 2.",
@@ -157,7 +157,7 @@
         "gamify":{
             "name":"Gamify",
             "aka":"aka Gaming",
-            "participant":"2",
+            "participant":"Max 2",
             "duration":"1.5 Hrs",
             "rules":[
                 "No PC/ Emulator & iPad.",
@@ -179,7 +179,7 @@
         "treasurehunt":{
             "name":"Treasure Hunt",
             "aka": null,
-            "participant":"3",
+            "participant":"2-3",
             "duration":"NA",
             "rules":[
                 "First a puzzle will be given among the teams to solve and a hint will be exposed after solving the puzzle.",
